@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+body {
+    background-color: #eeeeee2c;
+}
+.header {
+    background-color: #f8f9fd;
+}
+.logo h1 a {
+    color: #dc3545;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+nav ul li a {
+    color: #000;
+}
+nav ul li a:hover {
+    color: #dc3545;
+}
+a {
+    text-decoration: none;
+}
+.image img {
+    width: 800px;
+}
+@media (max-width:968px) {
+    .image img {
+        display: none;
+    }
+}
